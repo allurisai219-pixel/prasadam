@@ -54,3 +54,8 @@ def main():
     print("🚀 Server started on port 7860", flush=True)
     server = HTTPServer(("0.0.0.0", 7860), Handler)
     server.serve_forever()
+
+
+# 🔥 IMPORTANT: this line
+if __name__ == "__main__":
+    main()
