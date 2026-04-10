@@ -2,9 +2,7 @@
 name = "prasadam-flow"
 version = "0.1.0"
 description = "Prasadam Flow OpenEnv Environment"
-authors = [
-    { name = "Your Name" }
-]
+authors = [{ name = "Your Name" }]
 requires-python = ">=3.10"
 dependencies = [
     "openenv-core>=0.2.0"
