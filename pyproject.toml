@@ -1,0 +1,17 @@
+[project]
+name = "prasadam-flow"
+version = "0.1.0"
+description = "Prasadam-Flow OpenEnv RL Environment"
+authors = [
+    { name = "Your Name" }
+]
+requires-python = ">=3.10"
+
+[tool.openenv]
+environment = "environment:TempleKitchenEnv"
+
+tasks = [
+    { id = "task_1", class = "environment:Task1Env" },
+    { id = "task_2", class = "environment:Task2Env" },
+    { id = "task_3", class = "environment:Task3Env" }
+]
