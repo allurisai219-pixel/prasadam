@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . /app
 
-CMD ["python", "app.py"]
+RUN pip install --no-cache-dir openenv-core>=0.2.0
+
+CMD ["python", "-m", "server.app"]
