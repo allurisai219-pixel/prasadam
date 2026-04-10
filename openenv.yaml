@@ -1,0 +1,28 @@
+environment_id: prasadam-flow
+version: 1.0.0
+
+entry_point: environment.TempleKitchenEnv
+
+description: >
+  Prasadam-Flow simulates a high-scale temple kitchen optimizing food production
+  under inertia-based cooking delays and perishability constraints.
+
+author: hackathon-submission
+
+difficulty:
+  task_1: easy
+  task_2: medium
+  task_3: hard
+
+tasks:
+  task_1:
+    class: environment.Task1Env
+    grader: agent_grader
+
+  task_2:
+    class: environment.Task2Env
+    grader: agent_grader
+
+  task_3:
+    class: environment.Task3Env
+    grader: agent_grader
