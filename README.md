@@ -1,5 +1,5 @@
 ---
 title: prasadam-flow
-sdk: gradio
+sdk: docker
 ---
 Prasadam Flow
