@@ -1,6 +1,11 @@
 import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from models import Action
 from environment import Task1Env
 
