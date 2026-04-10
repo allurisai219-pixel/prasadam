@@ -1,11 +1,17 @@
 [project]
 name = "prasadam-flow"
 version = "0.1.0"
-description = "Prasadam-Flow OpenEnv RL Environment"
+description = "Prasadam Flow OpenEnv Environment"
 authors = [
     { name = "Your Name" }
 ]
 requires-python = ">=3.10"
+dependencies = [
+    "openenv-core>=0.2.0"
+]
+
+[project.scripts]
+server = "server.app:main"
 
 [tool.openenv]
 environment = "environment:TempleKitchenEnv"
